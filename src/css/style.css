@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --cor-principal: #ffffff;
+  --cor-segundaria: #c0c0c0;
+  --cor-terceira: #ec2f46;
+  --cor-botao: #167bf7;
+  --cor-background: #00030c;
+}
+body {
+  background-color: var(--cor-background);
+  font-family: "Inter", serif;
+}
+.container-1 {
+  color: var(--cor-principal);
+  display: flex;
+  justify-content: space-between;
+}
+.container-1 div {
+  font: bold;
+  font-size: 28px;
+  width: 700px;
+}
