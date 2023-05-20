@@ -148,3 +148,61 @@ footer ul {
 .menu__footer a:hover {
     color: var(--cor-terceira);
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .secundario__img {
+        margin-top: 3em;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    .container__descricao p {
+        margin-left: 10%;
+    }
+
+    .dispositivos_favoritos {
+        display: block;
+    }
+
+    .footer__lista {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        gap: 8px;
+        margin: 5%;
+    }
+
+    .menu__footer {
+        padding: 0.8em 0.3em;
+        text-decoration: none;
+
+    }
+
+    .menu__footer:hover {
+        background-color: var(--cor-botao);
+        border-radius: 15px;
+        padding: 0.8em 0.3em;
+        text-decoration: none;
+
+    }
+
+    .menu__footer a:hover {
+        color: var(--cor-principal);
+    }
+
+    .footer_info {
+        padding: 2%;
+    }
+}
