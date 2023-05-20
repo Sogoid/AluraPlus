@@ -10,6 +10,7 @@
     --cor-terceira: #ec2f46;
     --cor-botao: #167bf7;
     --cor-background: #00030c;
+    --cor-background-houver: chocolate;
     --font-principal: 'Inter', sans-serif;
 }
 
@@ -43,6 +44,10 @@ body {
     text-decoration: none;
     margin-bottom: 1em;
 
+}
+
+.container__btn:hover {
+    background-color: var(--cor-terceira);
 }
 
 .bnt_segundo {
@@ -138,4 +143,8 @@ footer ul {
 .menu__footer a {
     text-decoration: none;
     color: var(--cor-principal);
+}
+
+.menu__footer a:hover {
+    color: var(--cor-terceira);
 }
