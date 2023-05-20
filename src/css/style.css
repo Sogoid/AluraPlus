@@ -25,6 +25,8 @@ body {
     background-image: url("/src/img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -39,11 +41,17 @@ body {
     border-radius: 8px;
     padding: 1em;
     text-decoration: none;
+    margin-bottom: 1em;
+
 }
 
 .bnt_segundo {
     background-color: transparent;
     border: 2px solid var(--cor-principal);
+}
+
+.btn__modificador {
+    width: 100%;
 }
 
 .container__aviso {
@@ -52,8 +60,82 @@ body {
 }
 
 .container__titulo {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
     margin-block-start: 0;
     margin-block-end: 0;
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+    width: 50%;
+
+}
+
+.container__caixa {
+    display: flex;
+    flex-direction: column;
+    margin: 0 6em;
+    align-items: center;
+}
+
+.secundario__img {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-principal);
+    margin-bottom: 0.3em;
+}
+
+.container__descricao p {
+    color: var(--cor-segundaria);
+    margin-bottom: 1.5em;
+    width: 80%;
+    font-size: 16px;
+}
+
+.dispositivos_favoritos {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.container__dispositivos, footer {
+    text-align: center;
+    align-items: center;
+}
+
+footer img, ul, .footer_info {
+    margin: 2em 0;
+}
+
+.footer_info {
+    font-size: 14px;
+    padding: 0 14em;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2%;
+}
+
+.menu__footer {
+    font-size: 16px;
+}
+
+.menu__footer a {
+    text-decoration: none;
+    color: var(--cor-principal);
 }
